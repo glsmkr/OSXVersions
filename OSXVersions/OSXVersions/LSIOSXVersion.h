@@ -12,7 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LSIOSXVersion : NSObject
 
--(instancetype)initWithCodename:(NSString *)codename releaseDate:(NSString *)releaseDate;
+- (instancetype)initWithCodename:(NSString *)codename releaseDate:(NSString *)releaseDate;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @property NSString *codename;
 @property NSString *releaseDate;
