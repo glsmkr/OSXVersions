@@ -1,5 +1,5 @@
 //
-//  LSIOSXVersion.h
+//  LSIVersionsController.h
 //  OSXVersions
 //
 //  Created by Julian A. Fordyce on 3/30/19.
@@ -10,12 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LSIOSXVersion : NSObject
-
--(instancetype)initWithCodename:(NSString *)codename releaseDate:(NSString *)releaseDate;
-
-@property NSString *codename;
-@property NSString *releaseDate;
+@interface LSIVersionsController : NSObject
 
 @end
 

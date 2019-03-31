@@ -10,4 +10,16 @@
 
 @implementation LSIOSXVersion
 
+- (instancetype)initWithCodename:(NSString *)codename releaseDate:(NSString *)releaseDate
+{
+    self = [super init];
+    if (self) {
+        // Actually do initialization of properties in here
+        _codename = codename;
+        _releaseDate = releaseDate;
+    }
+    
+    return self;
+}
+
 @end

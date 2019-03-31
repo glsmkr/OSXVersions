@@ -14,6 +14,7 @@
 		C421A34322504C72000CAA08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C421A34222504C72000CAA08 /* main.m */; };
 		C421A34B225052AA000CAA08 /* LSIVersionsTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C421A34A225052AA000CAA08 /* LSIVersionsTableTableViewController.m */; };
 		C421A34E225054E3000CAA08 /* LSIOSXVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = C421A34D225054E3000CAA08 /* LSIOSXVersion.m */; };
+		C421A35122505AA6000CAA08 /* LSIVersionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C421A35022505AA6000CAA08 /* LSIVersionsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C421A34A225052AA000CAA08 /* LSIVersionsTableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionsTableTableViewController.m; sourceTree = "<group>"; };
 		C421A34C225054E3000CAA08 /* LSIOSXVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIOSXVersion.h; sourceTree = "<group>"; };
 		C421A34D225054E3000CAA08 /* LSIOSXVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIOSXVersion.m; sourceTree = "<group>"; };
+		C421A34F22505AA6000CAA08 /* LSIVersionsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionsController.h; sourceTree = "<group>"; };
+		C421A35022505AA6000CAA08 /* LSIVersionsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				C421A34222504C72000CAA08 /* main.m */,
 				C421A34C225054E3000CAA08 /* LSIOSXVersion.h */,
 				C421A34D225054E3000CAA08 /* LSIOSXVersion.m */,
+				C421A34F22505AA6000CAA08 /* LSIVersionsController.h */,
+				C421A35022505AA6000CAA08 /* LSIVersionsController.m */,
 			);
 			path = OSXVersions;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				C421A34322504C72000CAA08 /* main.m in Sources */,
 				C421A34E225054E3000CAA08 /* LSIOSXVersion.m in Sources */,
 				C421A33522504C71000CAA08 /* AppDelegate.m in Sources */,
+				C421A35122505AA6000CAA08 /* LSIVersionsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
