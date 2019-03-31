@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LSIOSXVersion : NSObject
 
+@property NSString *codename;
+@property NSString *releaseDate;
+
 @end
 
 NS_ASSUME_NONNULL_END
