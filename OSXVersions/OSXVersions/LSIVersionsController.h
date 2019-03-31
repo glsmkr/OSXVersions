@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LSIVersionsController : NSObject
 
+@property (class, readonly) LSIVersionsController *sharedController;
+
 // func fetchVersions(completion: (Error?) -> Void)
 
 - (void)fetchVersionsWithCompletionBlock:(void (^) (NSError *error))completionBlock;

@@ -13,6 +13,16 @@ NSString *baseURL = @"https://osx-versions.firebaseio.com/.json";
 
 @implementation LSIVersionsController
 
++ (LSIVersionsController *)shareController
+{
+    static LSIVersionsController *sharedController = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedController = [[LSIVersionsController alloc] init];
+    });
+    return sharedController;
+}
+
 - (void)fetchVersionsWithCompletionBlock:(void (^)(NSError *))completionBlock
 {
     // use data task to fetch data
