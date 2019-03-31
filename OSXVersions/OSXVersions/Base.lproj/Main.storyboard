@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Mac OS X Versions-->
         <scene sceneID="90g-4f-X55">
             <objects>
                 <tableViewController id="QVW-WJ-V54" customClass="LSIVersionsTableTableViewController" sceneMemberID="viewController">
@@ -48,7 +48,7 @@
                             <outlet property="delegate" destination="QVW-WJ-V54" id="kx9-Xf-S10"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="syt-J1-jmz"/>
+                    <navigationItem key="navigationItem" title="Mac OS X Versions" id="syt-J1-jmz"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GLU-BI-fyL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C421A33522504C71000CAA08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C421A33422504C71000CAA08 /* AppDelegate.m */; };
-		C421A33822504C71000CAA08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C421A33722504C71000CAA08 /* ViewController.m */; };
 		C421A33B22504C71000CAA08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C421A33922504C71000CAA08 /* Main.storyboard */; };
 		C421A33D22504C72000CAA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C421A33C22504C72000CAA08 /* Assets.xcassets */; };
 		C421A34022504C72000CAA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C421A33E22504C72000CAA08 /* LaunchScreen.storyboard */; };
 		C421A34322504C72000CAA08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C421A34222504C72000CAA08 /* main.m */; };
 		C421A34B225052AA000CAA08 /* LSIVersionsTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C421A34A225052AA000CAA08 /* LSIVersionsTableTableViewController.m */; };
+		C421A34E225054E3000CAA08 /* LSIOSXVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = C421A34D225054E3000CAA08 /* LSIOSXVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C421A33022504C71000CAA08 /* OSXVersions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXVersions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C421A33322504C71000CAA08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C421A33422504C71000CAA08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C421A33622504C71000CAA08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C421A33722504C71000CAA08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C421A33A22504C71000CAA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C421A33C22504C72000CAA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C421A33F22504C72000CAA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +27,8 @@
 		C421A34222504C72000CAA08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C421A349225052AA000CAA08 /* LSIVersionsTableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionsTableTableViewController.h; sourceTree = "<group>"; };
 		C421A34A225052AA000CAA08 /* LSIVersionsTableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionsTableTableViewController.m; sourceTree = "<group>"; };
+		C421A34C225054E3000CAA08 /* LSIOSXVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIOSXVersion.h; sourceTree = "<group>"; };
+		C421A34D225054E3000CAA08 /* LSIOSXVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIOSXVersion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,6 @@
 			children = (
 				C421A33322504C71000CAA08 /* AppDelegate.h */,
 				C421A33422504C71000CAA08 /* AppDelegate.m */,
-				C421A33622504C71000CAA08 /* ViewController.h */,
-				C421A33722504C71000CAA08 /* ViewController.m */,
 				C421A33922504C71000CAA08 /* Main.storyboard */,
 				C421A349225052AA000CAA08 /* LSIVersionsTableTableViewController.h */,
 				C421A34A225052AA000CAA08 /* LSIVersionsTableTableViewController.m */,
@@ -72,6 +70,8 @@
 				C421A33E22504C72000CAA08 /* LaunchScreen.storyboard */,
 				C421A34122504C72000CAA08 /* Info.plist */,
 				C421A34222504C72000CAA08 /* main.m */,
+				C421A34C225054E3000CAA08 /* LSIOSXVersion.h */,
+				C421A34D225054E3000CAA08 /* LSIOSXVersion.m */,
 			);
 			path = OSXVersions;
 			sourceTree = "<group>";
@@ -147,8 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C421A34B225052AA000CAA08 /* LSIVersionsTableTableViewController.m in Sources */,
-				C421A33822504C71000CAA08 /* ViewController.m in Sources */,
 				C421A34322504C72000CAA08 /* main.m in Sources */,
+				C421A34E225054E3000CAA08 /* LSIOSXVersion.m in Sources */,
 				C421A33522504C71000CAA08 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,15 +1,17 @@
 //
-//  ViewController.h
+//  LSIOSXVersion.h
 //  OSXVersions
 //
 //  Created by Julian A. Fordyce on 3/30/19.
 //  Copyright © 2019 Julian A. Fordyce. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface LSIOSXVersion : NSObject
 
 @end
 
+NS_ASSUME_NONNULL_END
