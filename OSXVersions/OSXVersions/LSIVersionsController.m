@@ -8,6 +8,16 @@
 
 #import "LSIVersionsController.h"
 
+NSString *baseURL = @"https://osx-versions.firebaseio.com/";
+
 @implementation LSIVersionsController
+
+- (void)fetchVersionsWithCompletionBlock:(void (^)(NSError *))completionBlock
+{
+    // use data task to fetch data
+    // check for an error
+    // decode data
+    // assign data to our array
+}
 
 @end
