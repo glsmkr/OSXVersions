@@ -13,6 +13,7 @@
 		C421A33D22504C72000CAA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C421A33C22504C72000CAA08 /* Assets.xcassets */; };
 		C421A34022504C72000CAA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C421A33E22504C72000CAA08 /* LaunchScreen.storyboard */; };
 		C421A34322504C72000CAA08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C421A34222504C72000CAA08 /* main.m */; };
+		C421A34B225052AA000CAA08 /* LSIVersionsTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C421A34A225052AA000CAA08 /* LSIVersionsTableTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C421A33F22504C72000CAA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C421A34122504C72000CAA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C421A34222504C72000CAA08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C421A349225052AA000CAA08 /* LSIVersionsTableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionsTableTableViewController.h; sourceTree = "<group>"; };
+		C421A34A225052AA000CAA08 /* LSIVersionsTableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionsTableTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				C421A33622504C71000CAA08 /* ViewController.h */,
 				C421A33722504C71000CAA08 /* ViewController.m */,
 				C421A33922504C71000CAA08 /* Main.storyboard */,
+				C421A349225052AA000CAA08 /* LSIVersionsTableTableViewController.h */,
+				C421A34A225052AA000CAA08 /* LSIVersionsTableTableViewController.m */,
 				C421A33C22504C72000CAA08 /* Assets.xcassets */,
 				C421A33E22504C72000CAA08 /* LaunchScreen.storyboard */,
 				C421A34122504C72000CAA08 /* Info.plist */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C421A34B225052AA000CAA08 /* LSIVersionsTableTableViewController.m in Sources */,
 				C421A33822504C71000CAA08 /* ViewController.m in Sources */,
 				C421A34322504C72000CAA08 /* main.m in Sources */,
 				C421A33522504C71000CAA08 /* AppDelegate.m in Sources */,
