@@ -13,7 +13,7 @@ NSString *baseURL = @"https://osx-versions.firebaseio.com/.json";
 
 @implementation LSIVersionsController
 
-+ (LSIVersionsController *)shareController
++ (LSIVersionsController *)sharedController
 {
     static LSIVersionsController *sharedController = nil;
     static dispatch_once_t onceToken;
